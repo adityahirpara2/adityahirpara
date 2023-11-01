@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/adityahirpara/static/css/main.84188340.css",
+    "main.js": "/adityahirpara/static/js/main.ed1de93f.js",
+    "static/media/apple.png": "/adityahirpara/static/media/apple.3040cbc773f6ac3e716b.png",
+    "static/media/bike2.jpg": "/adityahirpara/static/media/bike2.94913057263ac7fd5736.jpg",
+    "static/media/bike.jpg": "/adityahirpara/static/media/bike.4fb77970945041c48eda.jpg",
+    "static/media/truck.webp": "/adityahirpara/static/media/truck.31fbe48e1875d841c503.webp",
+    "index.html": "/adityahirpara/index.html",
+    "main.84188340.css.map": "/adityahirpara/static/css/main.84188340.css.map",
+    "main.ed1de93f.js.map": "/adityahirpara/static/js/main.ed1de93f.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.84188340.css",
+    "static/js/main.ed1de93f.js"
+  ]
+}
