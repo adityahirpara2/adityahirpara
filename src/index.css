@@ -1,0 +1,120 @@
+@import url("https://fonts.googleapis.com/css2?family=Mulish&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Mulish", sans-serif;
+}
+.active {
+  color: red;
+}
+.nav_bg {
+  background-color: #16165F;
+}
+.anchor_tag a{
+  color: white;
+  text-transform: capitalize;
+}
+.navbar-brand {
+    font-size: 1.5rem !important;
+}
+.anchor_tag a.active{
+  border-radius: 5px;
+  color: green !important;
+  font-weight: bold;
+  border-bottom: 1px solid green;
+  border-top: 1px solid green;
+}
+
+.anchor_tag a:hover {
+  color: red;
+}
+.anchor_tag button,.navbar-toggler-icon {
+  background-color: #fff !important;
+}
+.anchor_tag .navbar-toggler-icon {
+  color: red !important;
+}
+#header {
+  width: 100%;
+  height: 100vh;
+}
+.brand_name {
+  color: #16165f;
+  text-shadow: 0 0 2px aqua;
+}
+.card {
+  width: 18rem;
+}
+.contact_label label {
+  color: #16165f;
+}
+.contact_label input::placeholder {
+  color: gray;
+}
+@keyframes apple {
+  0% {
+    transform: translateY(-40px);
+  }
+  25% {
+    
+    transform: translateY(-20px);
+  }
+  50% {
+    
+    transform: translateY(0px);
+  }
+  75% {
+    
+    transform: translateY(20px);
+  }
+  100% {
+    transform: translateY(40px);
+
+  }
+  
+}
+.header_image img {
+  width: 500px;
+  animation-name: apple;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate-reverse;
+  animation-timing-function: linear;
+}
+@media screen and (max-width:364px) {
+  .anchor_tag button{
+    height: 30px;
+    width: 30px;
+  }
+  .anchor_tag .navbar-toggler-icon {
+    margin-left: -8px;
+    margin-top: -5px;
+    height: 20px;
+    width: 20px;
+
+  }
+}
+/* .first_section {
+    text-align: center;
+    margin-top: 20px;
+    color: red;
+}
+.search_input_field {
+    font-size: 20px;
+    text-align: center;
+    margin-top: 20px;
+    color: green;
+    border: 2px dashed red;
+    padding: 10px;
+}
+.search_input_field:focus {
+    outline: 2px dashed green;
+    border: 2px dashed white;
+    color: blue;
+}
+.search_input_field::placeholder {
+    font-size: 20px;
+    text-align: center;
+    color: rgba(0, 128, 0, 0.357);
+} */
